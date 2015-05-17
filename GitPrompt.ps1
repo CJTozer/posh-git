@@ -43,7 +43,7 @@ $global:GitPromptSettings = New-Object PSObject -Property @{
     AutoRefreshIndex          = $true
 
     EnablePromptStatus        = !$Global:GitMissing
-    EnableFileStatus          = $true
+    EnableFileStatus          = $false
     RepositoriesInWhichToDisableFileStatus = @( ) # Array of repository paths
     DescribeStyle             = ''
 
